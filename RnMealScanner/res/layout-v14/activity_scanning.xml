@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   	android:background="@drawable/background_bitmap"
+    tools:context="it.rn2014.scanner.ScanningActivity" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="14sp"
+        android:gravity="left" />
+
+    <TextView
+        android:id="@+id/turnText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:gravity="left"
+        android:layout_gravity="left" />
+   	
+   	<TextView
+        android:id="@+id/eventText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:layout_gravity="left" />
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom" >
+
+    <Button
+        android:id="@+id/btnBadge"
+        android:layout_weight="1"
+        android:background="@drawable/button_blue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableTop="@drawable/qr_code_icon"
+        android:text="@string/scansione"
+        android:padding="15dp" />        
+        
+    <Button
+        android:id="@+id/btnWrite"
+        android:layout_weight="1"
+        android:background="@drawable/button_red"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableTop="@drawable/password_icon"
+        android:text="@string/codice"
+        android:padding="15dp" />
+    
+
+    
+	</LinearLayout>
+</LinearLayout>

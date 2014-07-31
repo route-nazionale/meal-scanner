@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.rn2014.mealscanner"
+    android:versionCode="5"
+    android:versionName="v0.2.3" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="20" />
+
+    <uses-feature android:name="android.hardware.screen.portrait" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="it.rn2014.scanner.SplashScreenActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        
+        <activity
+            android:name="it.rn2014.scanner.AuthActivity"
+            android:label="@string/title_activity_auth"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="it.rn2014.scanner.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible"
+            android:screenOrientation="portrait" >
+		</activity>
+        <activity
+            android:name="it.rn2014.scanner.SyncroActivity"
+            android:label="@string/title_activity_syncro"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="it.rn2014.scanner.ScanningActivity"
+            android:label="@string/title_activity_scanning"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="it.rn2014.scanner.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="it.rn2014.scanner.EventActivity"
+            android:label="@string/title_activity_event"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="it.rn2014.scanner.EventResultActivity"
+            android:label="@string/title_activity_event_result"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="it.rn2014.scanner.IdentifyResultActivity"
+            android:label="@string/title_activity_identify_result"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="it.rn2014.scanner.GateResultActivity"
+            android:label="@string/title_activity_identify_result"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Meal Scanner</string>
+    <string name="logo_route_nazionale">Logo della Route Nazionale</string>
+    <string name="logo_ngm_mobile">Logo di NGM Mobile</string>
+    <string name="thanks_to">Thanks to</string>
+    <string name="title_activity_auth">Autenticazione</string>
+    <string name="auth_badge">Autenticazione con Badge</string>
+    <string name="auth_password">Autenticazione con inserimento manuale del codice</string>
+    <string name="welcome">Benvenuto!</string>
+    <string name="anonym">Utente Anonimo</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_code">Codice badge (AA-####-######-#)</string>
+    <string name="action_sign_in">Esegui il login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_userid">Questo codice non è valido</string>
+    <string name="error_field_required">Campo necessario</string>
+    <string name="inserisci_badge">Inserisci il tuo codice badge</string>
+    <string name="inserisci_data">Inserisci la tua data di nascita</string>
+    <string name="title_activity_main">Meal Scanner</string>
+    <string name="scansione">Scansione</string>
+    <string name="codice">Codice</string>
+    <string name="title_gate">Autenticazione Mensa</string>
+    <string name="desc_gate">Benvenuto nella modalità di Autenticazione Mensa,
+        di qui puoi autenticare i Badge per l\'accesso alla Mensa della Route Nazionale.
+        Premere sul bottone Scansione o sul bottone Codice per registrare un accesso.</string>
+    <string name="title_identify">Identifica soggetto</string>
+    <string name="desc_identify">Benvenuto nella modalità di Identificazione,
+        di qui puoi ottenere tutti i dati associati ad un badge.
+        Premere sul bottone Scansione per scansionare il badge con la fotocamera,
+        Premere sul bottone Codice per inserire il codice del Badge a mano.</string>
+    <string name="title_event">Autenticazione Eventi</string>
+    <string name="desc_event">Benvenuto nella modalità di Autenticazione Eventi,
+        di qui puoi autenticare i Badge per l\'evento selezionato.</string>
+    <string name="entrata">Entrata</string>
+    <string name="uscita">Uscita</string>
+    <string name="annulla">Annulla</string>
+    <string name="auth_fail">Autenticazione Fallita!</string>
+    <string name="title_activity_syncro">Sincronizzazione dati</string>
+    <string name="aggiornamento_del_database">Aggiornamento del Database</string>
+    <string name="invio_dei_dati">Invio dei dati</string>
+    <string name="ricezione_dei_dati">Ricezione dei dati</string>
+    <string name="avvia_sincronizzazione">Avvia Sincronizzazione</string>
+    <string name="sincronizzazione_dei_dati">Sincronizzazione dei dati</string>
+    <string name="ok_image">Immagine OK</string>
+    <string name="title_activity_event">Autenticazione Eventi</string>
+    <string name="chose_event">Scegli l\'evento di cui vuoi fare l\'autenticazione. Nell\'elenco seguente sono presenti solo gli eventi per cui sei stato autorizzato</string>
+    <string name="scegli_l_evento">Scegli l\'evento</string>
+    <string name="turno_1">Turno 1</string>
+    <string name="turno_2">Turno 2</string>
+    <string name="turno_3">Turno 3</string>
+    <string name="autorizzato">Autorizzato!</string>
+    <string name="non_autorizzato">Non Autorizzato!</string>
+    <string name="invalido">Non Riconosciuto!</string>
+    
+    <string name="partecipante">Partecipante!</string>
+    <string name="non_partecipante">Non partecipante!</string>
+    
+    
+    <string name="title_activity_identify_result">Risultato Scansione</string>
+    <string name="title_activity_event_result">Risultato Scansione</string>
+    <string name="sincronizza">Sincronizza</string>
+    <string name="identifica">Identifica</string>
+    <string name="autenticazione_eventi">Autenticazione Eventi</string>
+    <string name="autenticazione_varco">Autenticazione Mensa</string>
+    <string name="log_out">Log out</string>
+    <string name="connesso_come">Connesso come</string>
+    <string name="title_activity_scanning">Scansione codici</string>
+
+</resources>
